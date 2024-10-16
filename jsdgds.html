@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TU</title>
+</head>
+
+<body>
+
+    <div>
+        <img src="jj.png" onmouseover="changeText()" onmouseout="defaultText()">
+
+        <div id="description">
+            <p>Department of CSIT, Tribhuvan University</p>
+        </div>
+
+    </div>
+
+    <script>
+        function changeText() {
+            let display = document.getElementById('description');
+            display.innerHTML = "";
+            display.innerHTML = "Department of Computer Science and Informtion Technology, TU!! (Changed Text)";
+        }
+
+        function defaultText() {
+            let display = document.getElementById('description');
+            display.innerHTML = "";
+            display.innerHTML = "Department of CSIT, Tribhuvan University";
+        }
+    </script>
+
+</body>
+
+</html>

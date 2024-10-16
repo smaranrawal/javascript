@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <h1>Personal Information Form</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" required><br><br>
+
+        <label for="salary">Salary:</label>
+        <input type="number" id="salary" name="salary" step="0.01" required><br><br>
+
+        <label for="job">Job Title:</label>
+        <select id="job" name="job" required>
+            <option value="">Select a job title</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="manager">Manager</option>
+        </select><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="hobby1" name="hobbies" value="reading">
+        <label for="hobby1">Reading</label><br>
+        <input type="checkbox" id="hobby2" name="hobbies" value="traveling">
+        <label for="hobby2">Traveling</label><br>
+        <input type="checkbox" id="hobby3" name="hobbies" value="sports">
+        <label for="hobby3">Sports</label><br>
+        <input type="checkbox" id="hobby4" name="hobbies" value="cooking">
+        <label for="hobby4">Cooking</label><br><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #mydiv {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative; /* This is important for 'right' to work */
+            right: 0; /* Initial position */
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("#mydiv").animate({ right: "300px" }, 1000);
+        });
+    </script>
+</head>
+<body>
+    <div id="mydiv"></div>
+</body>
+</html>
