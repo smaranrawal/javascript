@@ -4,6 +4,8 @@ let btn1 = document.querySelector("button");
 //     console.log("hell");
 //     alert("warning!!")
 // }
+
+//-----------creating event--------------------
  let handler=()=>{
     console.log("heeke");
  }
@@ -12,7 +14,8 @@ let btn1 = document.querySelector("button");
 //     console.log("hello mr.");
 // }); 
  
-btn1.removeEventListener("click",handler);
+btn1.removeEventListener("click",handler);//--------removing event---
+
 let div1=document.querySelector("div");
 // div1.onmouseover=()=>{
 //     console.log("mosuehover");

@@ -33,4 +33,4 @@ newheading.innerText="Welcome to javascript course";
  //---------------DELETING THE ELEMENT-----------------
 
  let para=document.querySelector("p");
- para.remove();
+ para.remove(); 
